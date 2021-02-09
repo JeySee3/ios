@@ -5,7 +5,10 @@ pipeline {
 	stages {
 
 			stage('Checkout') {
-    		  checkout scm
+				git branch: ${BRANCH},
+    				credentialsId: 'githubjey',
+    				url: 'https://github.com/JeySee3/ios'
+    		  
 		}
 	}
 }
