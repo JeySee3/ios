@@ -10,6 +10,12 @@ pipeline {
     				credentialsId: "githubjey",
     				url: 'https://github.com/JeySee3/ios'
 			}		
-    	}
+    		}
+	
+		stage("Build") {
+			steps {
+				sh 'chmod +x ./build.sh'
+				sh '/bin/bash build.sh'
+		
 	}
 }
