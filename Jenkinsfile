@@ -1,6 +1,6 @@
 pipeline {
 	agent {
-        label "master"
+        label "mac-slave-aire"
     }
 
 	stages {
