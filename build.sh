@@ -36,7 +36,7 @@ function failed()
 
 if [ $BUILD_LOCALLY -eq 1 ]
 then
-	 export WORKSPACE=${PWD}
+	 export WORKSPACE=${PWD}/ios-sample-app
 	  PROJDIR=${WORKSPACE}
 	   # Get svn revision number. In build server it will be set by Jenkins
 	    SVN_REVISION=`/usr/bin/svnversion -nc | /usr/bin/sed -e 's/^[^:]*://;s/[A-Za-z]//'`
