@@ -21,7 +21,7 @@ BUILD_FOR_ENTERPRISE_DISTRIBUTION=0
 
 TARGET_SMART_CARD="App_SmartCard"
 #targets=("App_AdHoc" "$TARGET_SMART_CARD")
-targets=("ios-sample-app")
+targets=("Coffee Timer")
 #environments=("TEST1")
 environments=("TEST1" "TEST2" "TEST3" "TEST4" "TEST5" "PROD")
 
